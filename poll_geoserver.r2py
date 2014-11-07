@@ -1,0 +1,1 @@
+geoip = dy_import_module("geoip_client.r2py")
