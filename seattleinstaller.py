@@ -259,7 +259,7 @@ def get_filepath_of_win_startup_folder_with_link_to_seattle():
   # Please adapt this once new Python/Windows versions become available.
 
   release = platform.release()
-  if release == "Vista" or release == "post2008Server" or release == "7":
+  if release == "Vista" or release == "post2008Server" or release == "7" or release == "8":
     startup_path = os.environ.get("HOMEDRIVE") + os.environ.get("HOMEPATH") \
         + "\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs" \
         + "\\Startup" + os.sep + get_starter_shortcut_file_name()
