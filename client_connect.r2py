@@ -1,0 +1,5 @@
+if callfunc == 'initialize':
+  myip = getmyip()
+  myport = 12346
+  client_obj = openconnection('10.0.0.2',12345,myip,myport,10)
+  log(client_obj)
