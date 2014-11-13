@@ -1,0 +1,21 @@
+abhishek@abhishek-VirtualBox:/var/log/apache2$ tail -20f error.log
+[Mon Nov 10 16:02:04.209110 2014] [core:notice] [pid 1559:tid 3074505344] AH00052: child pid 3481 exit signal Aborted (6)
+[Mon Nov 10 16:02:04.209151 2014] [mpm_event:notice] [pid 1559:tid 3074505344] AH00491: caught SIGTERM, shutting down
+[Mon Nov 10 16:02:47.193845 2014] [:notice] [pid 1374:tid 3073870464] mod_python: Creating 8 session mutexes based on 6 max processes and 25 max threads.
+[Mon Nov 10 16:02:47.229182 2014] [:notice] [pid 1374:tid 3073870464] mod_python: using mutex_directory /tmp 
+[Mon Nov 10 16:02:47.453341 2014] [mpm_event:notice] [pid 1374:tid 3073870464] AH00489: Apache/2.4.7 (Ubuntu) mod_python/3.3.1 Python/2.7.6 mod_wsgi/3.4 configured -- resuming normal operations
+[Mon Nov 10 16:02:47.453458 2014] [core:notice] [pid 1374:tid 3073870464] AH00094: Command line: '/usr/sbin/apache2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Wed Nov 12 12:12:39.426769 2014] [core:notice] [pid 1374:tid 3073870464] AH00052: child pid 1378 exit signal Aborted (6)
+[Wed Nov 12 12:12:39.426846 2014] [core:notice] [pid 1374:tid 3073870464] AH00052: child pid 1379 exit signal Aborted (6)
+[Wed Nov 12 12:12:39.426884 2014] [mpm_event:notice] [pid 1374:tid 3073870464] AH00491: caught SIGTERM, shutting down
+[Wed Nov 12 12:13:06.950304 2014] [:notice] [pid 1390:tid 3074845312] mod_python: Creating 8 session mutexes based on 6 max processes and 25 max threads.
+[Wed Nov 12 12:13:06.976175 2014] [:notice] [pid 1390:tid 3074845312] mod_python: using mutex_directory /tmp 
+[Wed Nov 12 12:13:07.096683 2014] [mpm_event:notice] [pid 1390:tid 3074845312] AH00489: Apache/2.4.7 (Ubuntu) mod_python/3.3.1 Python/2.7.6 mod_wsgi/3.4 configured -- resuming normal operations
+[Wed Nov 12 12:13:07.096737 2014] [core:notice] [pid 1390:tid 3074845312] AH00094: Command line: '/usr/sbin/apache2'
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Nov 13 12:27:43.022955 2014] [core:notice] [pid 1390:tid 3074845312] AH00051: child pid 1400 exit signal Aborted (6), possible coredump in /etc/apache2
+[Thu Nov 13 12:27:45.025622 2014] [core:notice] [pid 1390:tid 3074845312] AH00051: child pid 1399 exit signal Aborted (6), possible coredump in /etc/apache2
+[Thu Nov 13 12:27:45.025622 2014] [mpm_event:notice] [pid 1390:tid 3074845312] AH00491: caught SIGTERM, shutting down
