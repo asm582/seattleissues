@@ -1,15 +1,9 @@
 if callfunc == 'initialize':
   myip = getmyip()
-  myport = 12345
-  serverip = gethostbyname("www.google.com")
-  log(serverip)
-  # open a connection to the google web server
-  socketobject = openconnection(serverip,80,myip,myport,10) 
-  log(socketobject)  
-  
-  # this is a HTTP request...
-  socketobject.send("GET /index.html HTTP/1.1\r\nHost: www.google.com\r\n\r\n")
+  myport = 12346
   try:
-    log(socketobject.recv(4096))
-  except SocketWouldBlockError:
-    log("buffer empty")
+    return_connection = openconnection('10.0.2.15',12345,myip,myport,10)
+    while True:
+      return_connection.send('Hello')
+  except Exception, err:
+    log("The Error is"+" "+str(err))
