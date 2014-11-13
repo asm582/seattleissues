@@ -1,24 +1,23 @@
-def echo_server(sockobj):
-  def _echo_helper():
-    log("Inside Echo Server")
-    while True:
-      msg = sockobj.recv(1024)
-      sockobj.send(msg)
-  return _echo_helper
-
+session = dy_import_module("session.r2py")
 
 if callfunc == 'initialize':
+  SLEEP_TIME = 1
   serverip = getmyip()
   serverport = 12345
-
   server_sock = listenforconnection(serverip, serverport)
-
+  log("Started Server listening on port - '%d' and  IP - '%s'"%(serverport,serverip))
   while True:
+    data = ""
+    MAX = 1400
     try:
-      (remoteip, remoteport, sockobj) = server_sock.getconnection()
+      remote_ip, remote_port, sockobj = server_sock.getconnection()
+      log("Incoming connection from '%s and %d'"%(remote_ip,remote_port))
+      data += sockobj.recv(1400)
+      data = data*1400
+      log(len(data))
+      if ((MAX - len(data)) <= 0):
+        log("buffer full\n")
     except SocketWouldBlockError:
-      continue
-    else:
-      # Launch the echo server.
-      log("above create thread")
-      createthread(echo_server(sockobj))
+      sleep(SLEEP_TIME)
+    except Exception, err:
+      log("Error in get connnection "+str(err))
