@@ -1,23 +1,22 @@
-session = dy_import_module("session.r2py")
-
 if callfunc == 'initialize':
-  SLEEP_TIME = 1
   serverip = getmyip()
   serverport = 12345
+  data = ""
+  MAX = 1400
   server_sock = listenforconnection(serverip, serverport)
   log("Started Server listening on port - '%d' and  IP - '%s'"%(serverport,serverip))
   while True:
-    data = ""
-    MAX = 1400
     try:
       remote_ip, remote_port, sockobj = server_sock.getconnection()
       log("Incoming connection from '%s and %d'"%(remote_ip,remote_port))
-      data += sockobj.recv(1400)
-      data = data*1400
-      log(len(data))
-      if ((MAX - len(data)) <= 0):
-        log("buffer full\n")
+      while True:
+        free_space = MAX - len(data)
+        try:
+          data += sockobj.recv(free_space)
+          log(len(data))
+        except SocketWouldBlockError:
+          pass 
     except SocketWouldBlockError:
-      sleep(SLEEP_TIME)
+      pass
     except Exception, err:
       log("Error in get connnection "+str(err))
