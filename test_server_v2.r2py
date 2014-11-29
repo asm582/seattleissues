@@ -1,0 +1,27 @@
+if callfunc == 'initialize':
+  serverip = getmyip()
+  serverport = 12345
+  data = ""
+  MAX = 1400
+  server_sock = listenforconnection(serverip, serverport)
+  log("Started Server listening on port - '%d' and  IP - '%s'"%(serverport,serverip))
+  while True:
+    try:
+      remote_ip, remote_port, sockobj = server_sock.getconnection()
+      log("Incoming connection from '%s and %d'"%(remote_ip,remote_port))
+      while True:
+        free_space = MAX - len(data)
+        log(free_space)
+        try:
+          while True:
+            data += sockobj.recv(free_space)
+            if("" == sockobj.recv(free_space)):
+              #log("buffer is full, remote side closing connection")
+              raise RepyArgumentError("buffer is full, remote side closing connection")
+        except SocketWouldBlockError:
+          pass 
+    except SocketWouldBlockError:
+      pass
+    except Exception, err:
+      log(str(err))    
+    
