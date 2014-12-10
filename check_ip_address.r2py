@@ -1,0 +1,64 @@
+def is_valid_ip_address(ipaddr):
+  """
+  <Purpose>
+    Determines if ipaddr is a valid IP address.
+    0.X and 224-255.X addresses are not allowed.
+    Additionally, 192.168.0.0 is not allowed.
+
+  <Arguments>
+    ipaddr: String to check for validity. (It will check that this is a string).
+
+  <Returns>
+    True if a valid IP, False otherwise.
+  """
+  # Argument must be of the string type
+  if not type(ipaddr) == str:
+    log("IP address is not string type")
+    return False
+
+  if ipaddr == '192.168.0.0':
+    log("IP address 192.168.0.0 is not allowed!!")
+    return False
+
+  # A valid IP should have 4 segments, explode on the period
+  octets = ipaddr.split(".")
+
+  # Check that we have 4 parts
+  if len(octets) != 4:
+    return False
+
+  # Check that each segment is a number between 0 and 255 inclusively.
+  for octet in octets:
+    # Attempt to convert to an integer
+    try:
+      ipnumber = int(octet)
+    except ValueError:
+      # There was an error converting to an integer, not an IP
+      log("IP address should have integer value!")
+      return False
+
+    # IP addresses octets must be between 0 and 255
+    if not (ipnumber >= 0 and ipnumber <= 255):
+      log("IP address should be in range of 0-255")
+      return False
+
+  # should not have a ValueError (I already checked)
+  firstipnumber = int(octets[0])
+
+  # IP addresses with the first octet 0 refer to all local IPs.   These are
+  # not allowed
+  if firstipnumber == 0:
+    log("First Octet of IP address cannot be zero!")
+    return False
+
+  # IP addresses with the first octet >=224 are either Multicast or reserved.
+  # These are not allowed
+  if firstipnumber >= 224:
+    log("Multicast address are not allowed to be used!")
+    return False
+
+  # At this point, assume the IP is valid
+  log("The IP address mentioned is valid!")
+  return True
+
+
