@@ -10,21 +10,14 @@ Arguments:
 FQDN of the server.
 
 """
-myip = getmyip()
-myport = 12346
-geoipserver = ['geoipserver.poly.edu','geoipserver2.poly.edu']
-for polltime in range(0,5):
-  for FQDN in geoipserver:
-    log("\n"+FQDN+"\n")
-    serverip = gethostbyname(FQDN)
-    serverport = 12679
-    try:
-      socket = openconnection(serverip,serverport,myip,myport,1)
-      log("server is alive!\n")
-      socket.close()
- 
-    except Exception, err:
-      log("Cannot contact the server! \n")
-      log(err)
-  sleep(65)
-  
+def poll(servername):
+  myip = getmyip()
+  myport = 12346
+  serverip = gethostbyname(servername)
+  serverport = 12679
+  try:
+    socket = openconnection(serverip,serverport,myip,myport,1)
+    return "server is alive"
+    socket.close()
+  except Exception, err:
+    return str(err)
