@@ -1,9 +1,0 @@
-if callfunc == 'initialize':
-  myip = getmyip()
-  myport = 12346
-  try:
-    return_connection = openconnection('10.0.2.15',12345,myip,myport,10)
-    while True:
-      return_connection.send('Hello')
-  except Exception, err:
-    log("The Error is"+" "+str(err))
