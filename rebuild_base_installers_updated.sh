@@ -9,7 +9,7 @@
 #
 # Usage: ./rebuild_base_installers.sh VERSION_STRING
 
-set -v -x
+
 VERSION=$1
 
 USER=cib
