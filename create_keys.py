@@ -6,14 +6,14 @@ from tuf.repository_tool import *
 
 # They keys for the root role.  For example, the root role may have a threshold
 # of two, and can be signed by any of the four root keys.
-generate_and_write_ed25519_keypair('keystore/user1_root', password='pw')
-generate_and_write_ed25519_keypair('keystore/user2_root', password='pw')
-generate_and_write_ed25519_keypair('keystore/user3_root', password='pw')
-generate_and_write_ed25519_keypair('keystore/user4_root', password='pw')
+generate_and_write_ed25519_keypair('keystore/user1_root', password='')
+generate_and_write_ed25519_keypair('keystore/user2_root', password='')
+generate_and_write_ed25519_keypair('keystore/user3_root', password='')
+generate_and_write_ed25519_keypair('keystore/user4_root', password='')
 
 # The keys for the non-root top-level roles and one delegated role
 # (pypi-signed)
-generate_and_write_ed25519_keypair('keystore/timestamp', password='pw')
-generate_and_write_ed25519_keypair('keystore/snapshot', password='pw')
-generate_and_write_ed25519_keypair('keystore/targets', password='pw')
-generate_and_write_ed25519_keypair('keystore/pypi-signed', password='pw')
+generate_and_write_ed25519_keypair('keystore/timestamp', password='')
+generate_and_write_ed25519_keypair('keystore/snapshot', password='')
+generate_and_write_ed25519_keypair('keystore/targets', password='')
+generate_and_write_ed25519_keypair('keystore/pypi-signed', password='')
