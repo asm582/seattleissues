@@ -1,0 +1,1078 @@
+[2015-04-27 05:35:11,372 UTC] [tuf.interposition] [ERROR] [exception:33@utility.py]
+Invalid configuration in tuf.interposition.json!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/__init__.py", line 191, in __read_configuration
+IOError: [Errno 2] No such file or directory: 'tuf.interposition.json'
+[2015-04-27 05:40:18,351 UTC] [tuf] [DEBUG] [add_console_handler:319@log.py]
+Added a console handler.
+
+[2015-04-27 05:41:15,655 UTC] [tuf] [DEBUG] [add_console_handler:319@log.py]
+Added a console handler.
+
+[2015-04-27 05:41:45,313 UTC] [tuf] [DEBUG] [add_console_handler:319@log.py]
+Added a console handler.
+
+[2015-04-27 05:41:45,315 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/root.json)
+
+[2015-04-27 05:41:45,325 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2016-04-26T10:45:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'10', 'daydash': u'26', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2016', 'separator': u'T', 'monthdash': u'04', 'day': None, 'minute': u'45'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6d42aac>
+
+[2015-04-27 05:41:45,352 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2016' for 'year' with default None
+
+[2015-04-27 05:41:45,352 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'monthdash' with default 1
+
+[2015-04-27 05:41:45,353 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'month' with default 4
+
+[2015-04-27 05:41:45,353 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'26' for 'daydash' with default 1
+
+[2015-04-27 05:41:45,353 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 26 for 'day' with default 26
+
+[2015-04-27 05:41:45,353 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'hour' with default None
+
+[2015-04-27 05:41:45,353 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'45' for 'minute' with default None
+
+[2015-04-27 05:41:45,353 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:41:45,354 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/timestamp.json)
+
+[2015-04-27 05:41:45,356 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2044-10-28T12:08:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'28', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2044', 'separator': u'T', 'monthdash': u'10', 'day': None, 'minute': u'08'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6d42aac>
+
+[2015-04-27 05:41:45,357 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2044' for 'year' with default None
+
+[2015-04-27 05:41:45,357 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'monthdash' with default 1
+
+[2015-04-27 05:41:45,357 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 10 for 'month' with default 10
+
+[2015-04-27 05:41:45,357 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'28' for 'daydash' with default 1
+
+[2015-04-27 05:41:45,357 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 28 for 'day' with default 28
+
+[2015-04-27 05:41:45,357 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:41:45,357 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'08' for 'minute' with default None
+
+[2015-04-27 05:41:45,357 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:41:45,358 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json)
+
+[2015-04-27 05:41:45,360 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-05-04T04:56:40Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'04', 'daydash': u'04', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'40', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'05', 'day': None, 'minute': u'56'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6d42aac>
+
+[2015-04-27 05:41:45,360 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:41:45,360 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'05' for 'monthdash' with default 1
+
+[2015-04-27 05:41:45,360 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 5 for 'month' with default 5
+
+[2015-04-27 05:41:45,361 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'daydash' with default 1
+
+[2015-04-27 05:41:45,361 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'day' with default 4
+
+[2015-04-27 05:41:45,361 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'hour' with default None
+
+[2015-04-27 05:41:45,361 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'56' for 'minute' with default None
+
+[2015-04-27 05:41:45,361 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'40' for 'second' with default None
+
+[2015-04-27 05:41:45,361 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/targets.json)
+
+[2015-04-27 05:41:45,364 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-07-27T12:23:50Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'27', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'50', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'07', 'day': None, 'minute': u'23'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6d42aac>
+
+[2015-04-27 05:41:45,364 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:41:45,364 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'07' for 'monthdash' with default 1
+
+[2015-04-27 05:41:45,364 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 7 for 'month' with default 7
+
+[2015-04-27 05:41:45,364 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'27' for 'daydash' with default 1
+
+[2015-04-27 05:41:45,364 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 27 for 'day' with default 27
+
+[2015-04-27 05:41:45,364 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:41:45,364 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'23' for 'minute' with default None
+
+[2015-04-27 05:41:45,365 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'50' for 'second' with default None
+
+[2015-04-27 05:42:11,786 UTC] [tuf] [DEBUG] [add_console_handler:319@log.py]
+Added a console handler.
+
+[2015-04-27 05:42:11,787 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/root.json)
+
+[2015-04-27 05:42:11,798 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2016-04-26T10:45:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'10', 'daydash': u'26', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2016', 'separator': u'T', 'monthdash': u'04', 'day': None, 'minute': u'45'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c97a6c>
+
+[2015-04-27 05:42:11,798 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2016' for 'year' with default None
+
+[2015-04-27 05:42:11,798 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'monthdash' with default 1
+
+[2015-04-27 05:42:11,798 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'month' with default 4
+
+[2015-04-27 05:42:11,798 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'26' for 'daydash' with default 1
+
+[2015-04-27 05:42:11,798 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 26 for 'day' with default 26
+
+[2015-04-27 05:42:11,798 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'hour' with default None
+
+[2015-04-27 05:42:11,799 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'45' for 'minute' with default None
+
+[2015-04-27 05:42:11,799 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:42:11,799 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/timestamp.json)
+
+[2015-04-27 05:42:11,801 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2044-10-28T12:08:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'28', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2044', 'separator': u'T', 'monthdash': u'10', 'day': None, 'minute': u'08'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c97a6c>
+
+[2015-04-27 05:42:11,801 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2044' for 'year' with default None
+
+[2015-04-27 05:42:11,801 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'monthdash' with default 1
+
+[2015-04-27 05:42:11,802 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 10 for 'month' with default 10
+
+[2015-04-27 05:42:11,802 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'28' for 'daydash' with default 1
+
+[2015-04-27 05:42:11,802 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 28 for 'day' with default 28
+
+[2015-04-27 05:42:11,802 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:42:11,802 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'08' for 'minute' with default None
+
+[2015-04-27 05:42:11,802 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:42:11,802 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json)
+
+[2015-04-27 05:42:11,804 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-05-04T04:56:40Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'04', 'daydash': u'04', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'40', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'05', 'day': None, 'minute': u'56'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c97a6c>
+
+[2015-04-27 05:42:11,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:42:11,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'05' for 'monthdash' with default 1
+
+[2015-04-27 05:42:11,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 5 for 'month' with default 5
+
+[2015-04-27 05:42:11,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'daydash' with default 1
+
+[2015-04-27 05:42:11,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'day' with default 4
+
+[2015-04-27 05:42:11,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'hour' with default None
+
+[2015-04-27 05:42:11,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'56' for 'minute' with default None
+
+[2015-04-27 05:42:11,806 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'40' for 'second' with default None
+
+[2015-04-27 05:42:11,806 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/targets.json)
+
+[2015-04-27 05:42:11,809 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-07-27T12:23:50Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'27', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'50', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'07', 'day': None, 'minute': u'23'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c97a6c>
+
+[2015-04-27 05:42:11,809 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:42:11,809 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'07' for 'monthdash' with default 1
+
+[2015-04-27 05:42:11,809 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 7 for 'month' with default 7
+
+[2015-04-27 05:42:11,809 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'27' for 'daydash' with default 1
+
+[2015-04-27 05:42:11,810 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 27 for 'day' with default 27
+
+[2015-04-27 05:42:11,810 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:42:11,810 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'23' for 'minute' with default None
+
+[2015-04-27 05:42:11,810 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'50' for 'second' with default None
+
+[2015-04-27 05:45:10,195 UTC] [tuf] [DEBUG] [add_console_handler:319@log.py]
+Added a console handler.
+
+[2015-04-27 05:45:10,197 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/root.json)
+
+[2015-04-27 05:45:10,212 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2016-04-26T10:45:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'10', 'daydash': u'26', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2016', 'separator': u'T', 'monthdash': u'04', 'day': None, 'minute': u'45'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c6874c>
+
+[2015-04-27 05:45:10,213 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2016' for 'year' with default None
+
+[2015-04-27 05:45:10,213 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'monthdash' with default 1
+
+[2015-04-27 05:45:10,213 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'month' with default 4
+
+[2015-04-27 05:45:10,213 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'26' for 'daydash' with default 1
+
+[2015-04-27 05:45:10,213 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 26 for 'day' with default 26
+
+[2015-04-27 05:45:10,213 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'hour' with default None
+
+[2015-04-27 05:45:10,214 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'45' for 'minute' with default None
+
+[2015-04-27 05:45:10,214 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:45:10,226 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/timestamp.json)
+
+[2015-04-27 05:45:10,229 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2044-10-28T12:08:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'28', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2044', 'separator': u'T', 'monthdash': u'10', 'day': None, 'minute': u'08'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c6874c>
+
+[2015-04-27 05:45:10,230 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2044' for 'year' with default None
+
+[2015-04-27 05:45:10,230 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'monthdash' with default 1
+
+[2015-04-27 05:45:10,234 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 10 for 'month' with default 10
+
+[2015-04-27 05:45:10,234 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'28' for 'daydash' with default 1
+
+[2015-04-27 05:45:10,235 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 28 for 'day' with default 28
+
+[2015-04-27 05:45:10,235 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:45:10,235 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'08' for 'minute' with default None
+
+[2015-04-27 05:45:10,235 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:45:10,236 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json)
+
+[2015-04-27 05:45:10,243 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-05-04T04:56:40Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'04', 'daydash': u'04', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'40', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'05', 'day': None, 'minute': u'56'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c6874c>
+
+[2015-04-27 05:45:10,244 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:45:10,244 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'05' for 'monthdash' with default 1
+
+[2015-04-27 05:45:10,244 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 5 for 'month' with default 5
+
+[2015-04-27 05:45:10,244 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'daydash' with default 1
+
+[2015-04-27 05:45:10,244 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'day' with default 4
+
+[2015-04-27 05:45:10,244 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'hour' with default None
+
+[2015-04-27 05:45:10,244 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'56' for 'minute' with default None
+
+[2015-04-27 05:45:10,245 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'40' for 'second' with default None
+
+[2015-04-27 05:45:10,245 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/targets.json)
+
+[2015-04-27 05:45:10,252 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-07-27T12:23:50Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'27', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'50', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'07', 'day': None, 'minute': u'23'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c6874c>
+
+[2015-04-27 05:45:10,252 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:45:10,252 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'07' for 'monthdash' with default 1
+
+[2015-04-27 05:45:10,252 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 7 for 'month' with default 7
+
+[2015-04-27 05:45:10,252 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'27' for 'daydash' with default 1
+
+[2015-04-27 05:45:10,252 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 27 for 'day' with default 27
+
+[2015-04-27 05:45:10,253 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:45:10,253 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'23' for 'minute' with default None
+
+[2015-04-27 05:45:10,253 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'50' for 'second' with default None
+
+[2015-04-27 05:46:08,409 UTC] [tuf] [DEBUG] [add_console_handler:319@log.py]
+Added a console handler.
+
+[2015-04-27 05:46:08,411 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/root.json)
+
+[2015-04-27 05:46:08,429 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2016-04-26T10:45:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'10', 'daydash': u'26', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2016', 'separator': u'T', 'monthdash': u'04', 'day': None, 'minute': u'45'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6d0856c>
+
+[2015-04-27 05:46:08,430 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2016' for 'year' with default None
+
+[2015-04-27 05:46:08,430 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'monthdash' with default 1
+
+[2015-04-27 05:46:08,430 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'month' with default 4
+
+[2015-04-27 05:46:08,430 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'26' for 'daydash' with default 1
+
+[2015-04-27 05:46:08,430 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 26 for 'day' with default 26
+
+[2015-04-27 05:46:08,430 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'hour' with default None
+
+[2015-04-27 05:46:08,430 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'45' for 'minute' with default None
+
+[2015-04-27 05:46:08,430 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:46:08,431 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/timestamp.json)
+
+[2015-04-27 05:46:08,436 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2044-10-28T12:08:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'28', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2044', 'separator': u'T', 'monthdash': u'10', 'day': None, 'minute': u'08'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6d0856c>
+
+[2015-04-27 05:46:08,437 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2044' for 'year' with default None
+
+[2015-04-27 05:46:08,437 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'monthdash' with default 1
+
+[2015-04-27 05:46:08,437 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 10 for 'month' with default 10
+
+[2015-04-27 05:46:08,437 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'28' for 'daydash' with default 1
+
+[2015-04-27 05:46:08,437 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 28 for 'day' with default 28
+
+[2015-04-27 05:46:08,438 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:46:08,438 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'08' for 'minute' with default None
+
+[2015-04-27 05:46:08,438 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:46:08,438 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json)
+
+[2015-04-27 05:46:08,443 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-05-04T04:56:40Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'04', 'daydash': u'04', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'40', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'05', 'day': None, 'minute': u'56'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6d0856c>
+
+[2015-04-27 05:46:08,443 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:46:08,444 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'05' for 'monthdash' with default 1
+
+[2015-04-27 05:46:08,444 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 5 for 'month' with default 5
+
+[2015-04-27 05:46:08,444 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'daydash' with default 1
+
+[2015-04-27 05:46:08,444 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'day' with default 4
+
+[2015-04-27 05:46:08,444 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'hour' with default None
+
+[2015-04-27 05:46:08,444 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'56' for 'minute' with default None
+
+[2015-04-27 05:46:08,445 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'40' for 'second' with default None
+
+[2015-04-27 05:46:08,445 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/targets.json)
+
+[2015-04-27 05:46:08,448 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-07-27T12:23:50Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'27', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'50', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'07', 'day': None, 'minute': u'23'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6d0856c>
+
+[2015-04-27 05:46:08,449 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:46:08,449 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'07' for 'monthdash' with default 1
+
+[2015-04-27 05:46:08,449 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 7 for 'month' with default 7
+
+[2015-04-27 05:46:08,449 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'27' for 'daydash' with default 1
+
+[2015-04-27 05:46:08,450 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 27 for 'day' with default 27
+
+[2015-04-27 05:46:08,450 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:46:08,450 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'23' for 'minute' with default None
+
+[2015-04-27 05:46:08,450 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'50' for 'second' with default None
+
+[2015-04-27 05:47:50,118 UTC] [tuf] [DEBUG] [add_console_handler:319@log.py]
+Added a console handler.
+
+[2015-04-27 05:47:50,119 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/root.json)
+
+[2015-04-27 05:47:50,134 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2016-04-26T10:45:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'10', 'daydash': u'26', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2016', 'separator': u'T', 'monthdash': u'04', 'day': None, 'minute': u'45'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c801ec>
+
+[2015-04-27 05:47:50,134 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2016' for 'year' with default None
+
+[2015-04-27 05:47:50,134 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'monthdash' with default 1
+
+[2015-04-27 05:47:50,135 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'month' with default 4
+
+[2015-04-27 05:47:50,135 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'26' for 'daydash' with default 1
+
+[2015-04-27 05:47:50,135 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 26 for 'day' with default 26
+
+[2015-04-27 05:47:50,135 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'hour' with default None
+
+[2015-04-27 05:47:50,135 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'45' for 'minute' with default None
+
+[2015-04-27 05:47:50,135 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:47:50,135 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/timestamp.json)
+
+[2015-04-27 05:47:50,148 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2044-10-28T12:08:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'28', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2044', 'separator': u'T', 'monthdash': u'10', 'day': None, 'minute': u'08'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c801ec>
+
+[2015-04-27 05:47:50,148 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2044' for 'year' with default None
+
+[2015-04-27 05:47:50,148 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'monthdash' with default 1
+
+[2015-04-27 05:47:50,149 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 10 for 'month' with default 10
+
+[2015-04-27 05:47:50,149 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'28' for 'daydash' with default 1
+
+[2015-04-27 05:47:50,149 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 28 for 'day' with default 28
+
+[2015-04-27 05:47:50,149 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:47:50,149 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'08' for 'minute' with default None
+
+[2015-04-27 05:47:50,149 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:47:50,150 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json)
+
+[2015-04-27 05:47:50,161 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-05-04T04:56:40Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'04', 'daydash': u'04', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'40', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'05', 'day': None, 'minute': u'56'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c801ec>
+
+[2015-04-27 05:47:50,161 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:47:50,161 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'05' for 'monthdash' with default 1
+
+[2015-04-27 05:47:50,161 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 5 for 'month' with default 5
+
+[2015-04-27 05:47:50,161 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'daydash' with default 1
+
+[2015-04-27 05:47:50,161 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'day' with default 4
+
+[2015-04-27 05:47:50,162 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'hour' with default None
+
+[2015-04-27 05:47:50,162 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'56' for 'minute' with default None
+
+[2015-04-27 05:47:50,162 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'40' for 'second' with default None
+
+[2015-04-27 05:47:50,167 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(/home/clienttuf/custominstallerbuilder/repository/metadata.staged/targets.json)
+
+[2015-04-27 05:47:50,170 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-07-27T12:23:50Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'27', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'50', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'07', 'day': None, 'minute': u'23'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c801ec>
+
+[2015-04-27 05:47:50,174 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:47:50,175 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'07' for 'monthdash' with default 1
+
+[2015-04-27 05:47:50,175 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 7 for 'month' with default 7
+
+[2015-04-27 05:47:50,175 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'27' for 'daydash' with default 1
+
+[2015-04-27 05:47:50,175 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 27 for 'day' with default 27
+
+[2015-04-27 05:47:50,175 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:47:50,175 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'23' for 'minute' with default None
+
+[2015-04-27 05:47:50,175 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'50' for 'second' with default None
+
+[2015-04-27 05:48:03,473 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2016-04-26T10:45:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'10', 'daydash': u'26', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2016', 'separator': u'T', 'monthdash': u'04', 'day': None, 'minute': u'45'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c801ec>
+
+[2015-04-27 05:48:03,473 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2016' for 'year' with default None
+
+[2015-04-27 05:48:03,473 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'monthdash' with default 1
+
+[2015-04-27 05:48:03,474 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'month' with default 4
+
+[2015-04-27 05:48:03,474 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'26' for 'daydash' with default 1
+
+[2015-04-27 05:48:03,474 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 26 for 'day' with default 26
+
+[2015-04-27 05:48:03,475 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'hour' with default None
+
+[2015-04-27 05:48:03,475 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'45' for 'minute' with default None
+
+[2015-04-27 05:48:03,475 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:48:03,565 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-07-27T12:23:50Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'27', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'50', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'07', 'day': None, 'minute': u'23'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c801ec>
+
+[2015-04-27 05:48:03,565 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:48:03,565 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'07' for 'monthdash' with default 1
+
+[2015-04-27 05:48:03,565 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 7 for 'month' with default 7
+
+[2015-04-27 05:48:03,566 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'27' for 'daydash' with default 1
+
+[2015-04-27 05:48:03,566 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 27 for 'day' with default 27
+
+[2015-04-27 05:48:03,566 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:48:03,566 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'23' for 'minute' with default None
+
+[2015-04-27 05:48:03,566 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'50' for 'second' with default None
+
+[2015-04-27 05:48:03,570 UTC] [tuf.repository_lib] [INFO] [sign_metadata:1783@repository_lib.py]
+Signing u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/targets.json' with 38d4c59d0b15c5aada524489d923f4d99c389fff16f106448707017a1cccb66a
+
+[2015-04-27 05:48:03,638 UTC] [tuf.repository_lib] [INFO] [sign_metadata:1783@repository_lib.py]
+Signing u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/targets.json' with 38d4c59d0b15c5aada524489d923f4d99c389fff16f106448707017a1cccb66a
+
+[2015-04-27 05:48:03,777 UTC] [tuf.repository_lib] [INFO] [write_metadata_file:1916@repository_lib.py]
+Saving u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/targets.json'
+
+[2015-04-27 05:48:03,784 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2015-05-04T04:56:40Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'04', 'daydash': u'04', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'40', 'tz_minute': None, 'year': u'2015', 'separator': u'T', 'monthdash': u'05', 'day': None, 'minute': u'56'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c801ec>
+
+[2015-04-27 05:48:03,784 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2015' for 'year' with default None
+
+[2015-04-27 05:48:03,784 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'05' for 'monthdash' with default 1
+
+[2015-04-27 05:48:03,784 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 5 for 'month' with default 5
+
+[2015-04-27 05:48:03,784 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'daydash' with default 1
+
+[2015-04-27 05:48:03,784 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'day' with default 4
+
+[2015-04-27 05:48:03,784 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'hour' with default None
+
+[2015-04-27 05:48:03,784 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'56' for 'minute' with default None
+
+[2015-04-27 05:48:03,785 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'40' for 'second' with default None
+
+[2015-04-27 05:48:03,785 UTC] [tuf.repository_lib] [INFO] [sign_metadata:1783@repository_lib.py]
+Signing u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json' with ee465968eee4d8728323785b1b735098c8a2b1ea58e94ce6292db8b31eec5ec6
+
+[2015-04-27 05:48:03,790 UTC] [tuf.repository_lib] [INFO] [sign_metadata:1783@repository_lib.py]
+Signing u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json' with ee465968eee4d8728323785b1b735098c8a2b1ea58e94ce6292db8b31eec5ec6
+
+[2015-04-27 05:48:03,802 UTC] [tuf.repository_lib] [INFO] [write_metadata_file:1916@repository_lib.py]
+Saving u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json'
+
+[2015-04-27 05:48:03,804 UTC] [tuf.repository_lib] [INFO] [generate_timestamp_metadata:1717@repository_lib.py]
+Including fileinfo about u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/snapshot.json.gz'
+
+[2015-04-27 05:48:03,804 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2044-10-28T12:08:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'12', 'daydash': u'28', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2044', 'separator': u'T', 'monthdash': u'10', 'day': None, 'minute': u'08'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6c801ec>
+
+[2015-04-27 05:48:03,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2044' for 'year' with default None
+
+[2015-04-27 05:48:03,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'monthdash' with default 1
+
+[2015-04-27 05:48:03,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 10 for 'month' with default 10
+
+[2015-04-27 05:48:03,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'28' for 'daydash' with default 1
+
+[2015-04-27 05:48:03,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 28 for 'day' with default 28
+
+[2015-04-27 05:48:03,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'12' for 'hour' with default None
+
+[2015-04-27 05:48:03,805 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'08' for 'minute' with default None
+
+[2015-04-27 05:48:03,806 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 05:48:03,806 UTC] [tuf.repository_lib] [INFO] [sign_metadata:1783@repository_lib.py]
+Signing u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/timestamp.json' with 3eb280cfa9bbd6c7303d9e2f987f1204a04bdd271be3d6c685e6036a66b81393
+
+[2015-04-27 05:48:03,809 UTC] [tuf.repository_lib] [INFO] [sign_metadata:1783@repository_lib.py]
+Signing u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/timestamp.json' with 3eb280cfa9bbd6c7303d9e2f987f1204a04bdd271be3d6c685e6036a66b81393
+
+[2015-04-27 05:48:03,820 UTC] [tuf.repository_lib] [INFO] [write_metadata_file:1916@repository_lib.py]
+Saving u'/home/clienttuf/custominstallerbuilder/repository/metadata.staged/timestamp.json'
+
+[2015-04-27 06:19:33,473 UTC] [tuf.interposition] [INFO] [info:38@utility.py]
+Adding updater for interposed network location: localhost:80
+
+[2015-04-27 06:19:33,474 UTC] [tuf.interposition] [DEBUG] [debug:28@utility.py]
+Created temporary directory at /tmp/tmpd4T0Hc
+
+[2015-04-27 06:19:33,474 UTC] [tuf.interposition] [ERROR] [exception:33@utility.py]
+Invalid configuration for localhost!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/__init__.py", line 206, in __read_configuration
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 277, in add
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 52, in __init__
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 332, in __init__
+RepositoryError: Missing u'./metadata/previous'.  This path must exist.
+[2015-04-27 06:19:33,474 UTC] [tuf.interposition] [ERROR] [exception:33@utility.py]
+Invalid configuration in tuf.interposition.json!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/__init__.py", line 206, in __read_configuration
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 277, in add
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 52, in __init__
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 332, in __init__
+RepositoryError: Missing u'./metadata/previous'.  This path must exist.
+[2015-04-27 06:20:08,845 UTC] [tuf.interposition] [INFO] [info:38@utility.py]
+Adding updater for interposed network location: localhost:80
+
+[2015-04-27 06:20:08,846 UTC] [tuf.interposition] [DEBUG] [debug:28@utility.py]
+Created temporary directory at /tmp/tmpKb9fuL
+
+[2015-04-27 06:20:08,846 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(./metadata/current/root.json)
+
+[2015-04-27 06:20:08,853 UTC] [tuf.interposition] [INFO] [info:38@utility.py]
+Refreshing top-level metadata for interposed network location: localhost:80
+
+[2015-04-27 06:20:08,853 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2016-04-26T10:45:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'10', 'daydash': u'26', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2016', 'separator': u'T', 'monthdash': u'04', 'day': None, 'minute': u'45'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6a79cec>
+
+[2015-04-27 06:20:08,854 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2016' for 'year' with default None
+
+[2015-04-27 06:20:08,855 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'monthdash' with default 1
+
+[2015-04-27 06:20:08,855 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'month' with default 4
+
+[2015-04-27 06:20:08,855 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'26' for 'daydash' with default 1
+
+[2015-04-27 06:20:08,855 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 26 for 'day' with default 26
+
+[2015-04-27 06:20:08,855 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'hour' with default None
+
+[2015-04-27 06:20:08,855 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'45' for 'minute' with default None
+
+[2015-04-27 06:20:08,856 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 06:20:08,856 UTC] [tuf.download] [INFO] [_download_file:193@download.py]
+Downloading: http://192.168.1.20/updatesite//metadata/timestamp.json
+
+[2015-04-27 06:20:10,920 UTC] [tuf.download] [ERROR] [_download_file:222@download.py]
+Could not download URL: http://192.168.1.20/updatesite//metadata/timestamp.json
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 06:20:10,921 UTC] [tuf.client.updater] [ERROR] [_get_file:1211@updater.py]
+Update failed from http://192.168.1.20/updatesite//metadata/timestamp.json.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1193, in _get_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 139, in unsafe_download
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 06:20:10,921 UTC] [tuf.client.updater] [ERROR] [_get_file:1223@updater.py]
+Failed to update timestamp.json from all mirrors: {u'http://192.168.1.20/updatesite//metadata/timestamp.json': URLError(timeout('timed out',),)}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1193, in _get_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 139, in unsafe_download
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 06:20:10,922 UTC] [tuf.client.updater] [INFO] [refresh:657@updater.py]
+Valid top-level metadata cannot be downloaded.  Unsafely update the Root metadata.
+
+[2015-04-27 06:20:10,922 UTC] [tuf.download] [INFO] [_download_file:193@download.py]
+Downloading: http://192.168.1.20/updatesite//metadata/root.json
+
+[2015-04-27 06:20:12,928 UTC] [tuf.download] [ERROR] [_download_file:222@download.py]
+Could not download URL: http://192.168.1.20/updatesite//metadata/root.json
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 06:20:12,928 UTC] [tuf.client.updater] [ERROR] [_get_file:1211@updater.py]
+Update failed from http://192.168.1.20/updatesite//metadata/root.json.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1193, in _get_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 139, in unsafe_download
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 06:20:12,929 UTC] [tuf.client.updater] [ERROR] [_get_file:1223@updater.py]
+Failed to update root.json from all mirrors: {u'http://192.168.1.20/updatesite//metadata/root.json': URLError(timeout('timed out',),)}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1193, in _get_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 139, in unsafe_download
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 06:20:12,929 UTC] [tuf.interposition] [ERROR] [exception:33@utility.py]
+Invalid configuration for localhost!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/__init__.py", line 206, in __read_configuration
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 277, in add
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 59, in __init__
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 659, in refresh
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1323, in _update_metadata
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1036, in _unsafely_get_metadata_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1224, in _get_file
+NoWorkingMirrorError: No working mirror was found:
+  u'192.168.1.20': URLError(timeout('timed out',),)
+[2015-04-27 06:20:12,929 UTC] [tuf.interposition] [ERROR] [exception:33@utility.py]
+Invalid configuration in tuf.interposition.json!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/__init__.py", line 206, in __read_configuration
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 277, in add
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 59, in __init__
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 659, in refresh
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1323, in _update_metadata
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1036, in _unsafely_get_metadata_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1224, in _get_file
+NoWorkingMirrorError: No working mirror was found:
+  u'192.168.1.20': URLError(timeout('timed out',),)
+[2015-04-27 14:31:37,335 UTC] [tuf.interposition] [INFO] [info:38@utility.py]
+Adding updater for interposed network location: localhost:80
+
+[2015-04-27 14:31:37,337 UTC] [tuf.interposition] [DEBUG] [debug:28@utility.py]
+Created temporary directory at /tmp/tmpq8PcSm
+
+[2015-04-27 14:31:37,337 UTC] [tuf.util] [DEBUG] [load_json_file:924@util.py]
+open(./metadata/current/root.json)
+
+[2015-04-27 14:31:37,343 UTC] [tuf.interposition] [INFO] [info:38@utility.py]
+Refreshing top-level metadata for interposed network location: localhost:80
+
+[2015-04-27 14:31:37,344 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [parse_date:184@iso8601.py]
+Parsed 2016-04-26T10:45:00Z into {'tz_sign': None, 'second_fraction': None, 'hour': u'10', 'daydash': u'26', 'tz_hour': None, 'month': None, 'timezone': u'Z', 'second': u'00', 'tz_minute': None, 'year': u'2016', 'separator': u'T', 'monthdash': u'04', 'day': None, 'minute': u'45'} with default timezone <tuf._vendor.iso8601.iso8601.Utc object at 0xb6accd2c>
+
+[2015-04-27 14:31:37,344 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'2016' for 'year' with default None
+
+[2015-04-27 14:31:37,344 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'04' for 'monthdash' with default 1
+
+[2015-04-27 14:31:37,344 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 4 for 'month' with default 4
+
+[2015-04-27 14:31:37,344 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'26' for 'daydash' with default 1
+
+[2015-04-27 14:31:37,344 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got 26 for 'day' with default 26
+
+[2015-04-27 14:31:37,344 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'10' for 'hour' with default None
+
+[2015-04-27 14:31:37,345 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'45' for 'minute' with default None
+
+[2015-04-27 14:31:37,345 UTC] [tuf._vendor.iso8601.iso8601] [DEBUG] [to_int:140@iso8601.py]
+Got u'00' for 'second' with default None
+
+[2015-04-27 14:31:37,345 UTC] [tuf.download] [INFO] [_download_file:193@download.py]
+Downloading: http://192.168.1.20:80/updatesite//metadata/timestamp.json
+
+[2015-04-27 14:31:39,357 UTC] [tuf.download] [ERROR] [_download_file:222@download.py]
+Could not download URL: http://192.168.1.20:80/updatesite//metadata/timestamp.json
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 14:31:39,358 UTC] [tuf.client.updater] [ERROR] [_get_file:1211@updater.py]
+Update failed from http://192.168.1.20:80/updatesite//metadata/timestamp.json.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1193, in _get_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 139, in unsafe_download
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 14:31:39,358 UTC] [tuf.client.updater] [ERROR] [_get_file:1223@updater.py]
+Failed to update timestamp.json from all mirrors: {u'http://192.168.1.20:80/updatesite//metadata/timestamp.json': URLError(timeout('timed out',),)}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1193, in _get_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 139, in unsafe_download
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 14:31:39,358 UTC] [tuf.client.updater] [INFO] [refresh:657@updater.py]
+Valid top-level metadata cannot be downloaded.  Unsafely update the Root metadata.
+
+[2015-04-27 14:31:39,359 UTC] [tuf.download] [INFO] [_download_file:193@download.py]
+Downloading: http://192.168.1.20:80/updatesite//metadata/root.json
+
+[2015-04-27 14:31:41,362 UTC] [tuf.download] [ERROR] [_download_file:222@download.py]
+Could not download URL: http://192.168.1.20:80/updatesite//metadata/root.json
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 14:31:41,362 UTC] [tuf.client.updater] [ERROR] [_get_file:1211@updater.py]
+Update failed from http://192.168.1.20:80/updatesite//metadata/root.json.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1193, in _get_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 139, in unsafe_download
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 14:31:41,363 UTC] [tuf.client.updater] [ERROR] [_get_file:1223@updater.py]
+Failed to update root.json from all mirrors: {u'http://192.168.1.20:80/updatesite//metadata/root.json': URLError(timeout('timed out',),)}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1193, in _get_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 139, in unsafe_download
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 201, in _download_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/download.py", line 428, in _open_connection
+  File "/usr/lib/python2.7/urllib2.py", line 404, in open
+  File "/usr/lib/python2.7/urllib2.py", line 422, in _open
+  File "/usr/lib/python2.7/urllib2.py", line 382, in _call_chain
+  File "/usr/lib/python2.7/urllib2.py", line 1214, in http_open
+  File "/usr/lib/python2.7/urllib2.py", line 1184, in do_open
+URLError: <urlopen error timed out>
+[2015-04-27 14:31:41,363 UTC] [tuf.interposition] [ERROR] [exception:33@utility.py]
+Invalid configuration for localhost!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/__init__.py", line 206, in __read_configuration
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 277, in add
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 59, in __init__
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 659, in refresh
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1323, in _update_metadata
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1036, in _unsafely_get_metadata_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1224, in _get_file
+NoWorkingMirrorError: No working mirror was found:
+  u'192.168.1.20:80': URLError(timeout('timed out',),)
+[2015-04-27 14:31:41,363 UTC] [tuf.interposition] [ERROR] [exception:33@utility.py]
+Invalid configuration in tuf.interposition.json!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/__init__.py", line 206, in __read_configuration
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 277, in add
+  File "/usr/local/lib/python2.7/dist-packages/tuf/interposition/updater.py", line 59, in __init__
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 659, in refresh
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1323, in _update_metadata
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1036, in _unsafely_get_metadata_file
+  File "/usr/local/lib/python2.7/dist-packages/tuf/client/updater.py", line 1224, in _get_file
+NoWorkingMirrorError: No working mirror was found:
+  u'192.168.1.20:80': URLError(timeout('timed out',),)
